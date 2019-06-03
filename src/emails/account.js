@@ -16,7 +16,7 @@ const sendQuitEmail = (email, name) => {
         to: email,
         from: 'pavlovic.marko1995@gmail.com',
         subject: 'Napustili ste nas',
-        text: `Duvaj ga bre ${name}, naci cemo bolje korisnike .!.`
+        text: `E bre ${name}, steta za Vas` 
     })
 }
 module.exports = {
